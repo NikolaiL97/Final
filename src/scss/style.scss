@@ -1,0 +1,24 @@
+$text-color: #7e7e82;
+$btn-background-color: #ff3e79;
+$background-color: #f8f8f8;
+$border-list: 1px solid #d9fff5;
+$stick-color: #41f6d7;
+$item-border-color: #eaeaea;
+$item-background: #fff;
+$input-text-color: #b5b6bc;
+$price-text: #1b1c21;
+
+body {
+    position: relative;
+    margin: 0;
+    background-color: $background-color;
+}
+
+@import './brend';
+@import './call';
+@import './footer';
+@import './header-main';
+@import './price';
+@import './side-bar';
+@import './technology';
+@import './TT_Lakes.scss';

@@ -1,0 +1,223 @@
+.price {
+    background: $background-color;
+}
+
+.price-wrapper {
+    max-width: 288px;
+    margin: 0 auto;
+}
+
+.price-text {
+    font-family: 'TT Lakes Light';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: $text-color;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    border-top: $border-list;
+    margin-top: 40px;
+}
+
+.price .swiper {
+    width: 260px;
+    height: 235px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none !important;
+}
+
+.swiper-scrollbar {
+    display: none;
+}
+
+.price .swiper-slide {
+    height: 200px !important;
+    width: 260px;
+    box-sizing: border-box;
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid $item-border-color;
+    border-radius: 6px;
+    padding: 16px;
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #dddddd !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #b5b6bc !important;
+}
+
+.price-name {
+    color: $text-color;
+    font-family: 'TT Lakes Medium';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    opacity: 0.7218;
+    margin-bottom: 4px;
+}
+
+.price-description {
+    color: $price-text;
+    font-family: 'TT Lakes Medium';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    margin-bottom: 16px;
+}
+
+.price-btn {
+    padding: 4px 40px 4px 12px;
+    color: $item-background;
+    text-align: left;
+    font-family: 'TT Lakes Medium';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    text-transform: uppercase;
+    border-radius: 16px;
+    border: 1px solid $btn-background-color;
+    background: url('../Images/dropdown.svg') no-repeat $btn-background-color 90% 50%;
+}
+
+.price-btn:hover {
+    border: 1px solid $stick-color;
+}
+
+.price-order {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-list {
+    display: none;
+}
+
+.price-disclaimer {
+    color: $price-text;
+    font-family: 'TT Lakes Medium';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.price-offer {
+    max-width: 192px;
+    margin-top: 15px;
+    color: $price-text;
+    font-family: 'TT Lakes Medium';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    background-repeat: no-repeat;
+    background-position: 60% 110%;
+    cursor: pointer;
+}
+
+.price-offer:hover {
+    border: 1px solid $stick-color;
+}
+
+@media (min-width: 525px) and (max-width: 767px) {
+    .price-wrapper {
+        max-width: 525px;
+        .swiper {
+            width: 520px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .price-wrapper {
+        max-width: 720px;
+    }
+    .price-list {
+        display: flex;
+        flex-direction: column;
+    }
+    .price-item {
+        display: flex;
+        align-items: center;
+        border-radius: 6px;
+        background: $item-background;
+        padding: 23px 16px 16px;
+    }
+    .price-item__description {
+        border: none;
+        background: none;
+    }
+    .price-item p:nth-child(1) {
+        min-width: 387px;
+    }
+    .price-item p:nth-child(2) {
+        width: 96px;
+    }
+    .price-item p:nth-child(3) {
+        width: 103px;
+    }
+    .price-description {
+        margin: 0;
+    }
+    .price-disclaimer {
+        max-width: 421px;
+        margin-top: 24px;
+    }
+    .price-offer {
+        max-width: 330px;
+        background-position: 95% 10%;
+    }
+    .swiper {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1120px) {
+    .price-wrapper {
+        max-width: 1056px;
+    }
+    .price-item {
+        max-width: 718px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .price-wrapper {
+        max-width: 1056px;
+    }
+    .price-item {
+        max-width: none;
+    }
+    .price-item p:nth-child(1) {
+        min-width: 470px;
+    }
+    .price-item p:nth-child(2) {
+        width: 74px;
+        margin-right: 153px;
+    }
+    .price-item p:nth-child(3) {
+        width: 83px;
+        margin-right: 111px;
+    }
+    .swiper {
+        display: none !important;
+    }
+}
