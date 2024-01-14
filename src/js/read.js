@@ -1,5 +1,3 @@
-
-
 let showList = (list, button, icon) => {
     list.classList.remove('hidden')
     button.innerHTML = 'Скрыть'

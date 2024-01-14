@@ -62,14 +62,6 @@
     }
 }
 
-@media (min-width: 525px) and (max-width: 767px) {
-    .brend-wrapper {
-        max-width: 525px;
-        .swiper {
-            width: 532px;
-        }
-    }
-}
 
 @media (min-width: 768px) {
     .brend-text {
@@ -82,6 +74,9 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: flex-start;
+        }
+        .swiper {
+            width: 532px;
         }
       
         .brend-item {
@@ -133,7 +128,7 @@
             flex-wrap: wrap;
             justify-content: space-between;
         }
-        
+
         .swiper {
             display: none !important;
         }

@@ -27,15 +27,6 @@ footer {
     }
 }
 
-@media (min-width: 560px) and (max-width: 767px) {
-    .footer-wrapper {
-        max-width: 525px;
-        display: grid;
-        grid-template-columns: 135px 142px 147px;
-        gap: 46px;
-    }
-}
-
 @media (min-width: 768px) {
     footer {
         padding-top: 80px;
@@ -60,5 +51,11 @@ footer {
             min-width: 213px;
             text-align: right;
         }
+    }
+    .footer-wrapper {
+        max-width: 525px;
+        display: grid;
+        grid-template-columns: 135px 142px 147px;
+        gap: 46px;
     }
 }

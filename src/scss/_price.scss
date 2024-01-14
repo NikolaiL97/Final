@@ -137,15 +137,6 @@
     border: 1px solid $stick-color;
 }
 
-@media (min-width: 525px) and (max-width: 767px) {
-    .price-wrapper {
-        max-width: 525px;
-        .swiper {
-            width: 520px;
-        }
-    }
-}
-
 @media (min-width: 768px) {
     .price-wrapper {
         max-width: 720px;
@@ -196,15 +187,6 @@
     }
     .price-item {
         max-width: 718px;
-    }
-}
-
-@media (min-width: 1400px) {
-    .price-wrapper {
-        max-width: 1056px;
-    }
-    .price-item {
-        max-width: none;
     }
     .price-item p:nth-child(1) {
         min-width: 470px;
