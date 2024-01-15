@@ -90,7 +90,7 @@
     text-transform: uppercase;
     border-radius: 16px;
     border: 1px solid $btn-background-color;
-    background: url('../Images/goside.svg') no-repeat $btn-background-color 90% 50%;
+    background: $btn-background-color 90% 50%;
 }
 
 .price-btn:hover {
