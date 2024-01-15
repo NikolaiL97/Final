@@ -38,7 +38,9 @@ module.exports = {
       },
       {
         test: /\.(eot|ttf|woff|woff2)$/,
-        use: ['file-loader']
+        type: 'asset/resource',
+        dependency: { not: ['url'] },
+        // use: ['file-loader']
       },
       {
         test: /\.(svg|png|jpg|jpeg)$/,

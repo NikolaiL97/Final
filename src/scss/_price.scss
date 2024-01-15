@@ -8,7 +8,7 @@
 }
 
 .price-text {
-    font-family: 'TT Lakes Light';
+    font-family: 'TT Lakes Regular';
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
@@ -181,12 +181,12 @@
     }
 }
 
-@media (min-width: 1120px) {
+@media (min-width: 1440px) {
     .price-wrapper {
         max-width: 1056px;
     }
     .price-item {
-        max-width: 718px;
+        max-width: 1056px;
     }
     .price-item p:nth-child(1) {
         min-width: 470px;

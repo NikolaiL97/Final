@@ -8,7 +8,7 @@ body {
   height: 56px;
   max-width: 100%;
   padding-left: 16px;
-  font-family: "TT Lakes Light";
+  font-family: "TT Lakes Regular";
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
@@ -110,15 +110,11 @@ body {
     border: none;
     text-align: left;
   }
-  .brend-wrapper .main__description_png {
-    width: 7px;
-    height: 10px;
-  }
   .brend-wrapper .swiper {
     display: none !important;
   }
 }
-@media (min-width: 1120px) {
+@media (min-width: 1440px) {
   .brend-text {
     height: 56px;
     padding-left: 6px;
@@ -164,7 +160,7 @@ body {
 }
 .feedback h1,
 .responsiveness h1 {
-  font-family: "TT Lakes";
+  font-family: "TT Lakes Bold";
   font-size: 28px;
   line-height: 40px;
   padding: 24px 16px;
@@ -291,7 +287,7 @@ body {
     padding-left: 30px;
   }
 }
-@media (min-width: 1120px) {
+@media (min-width: 1440px) {
   .feedback,
   .responsiveness {
     width: 440px;
@@ -471,7 +467,7 @@ footer p:nth-child(1) {
 }
 
 .caption__title {
-  font-family: "TT Lakes";
+  font-family: "TT Lakes Bold";
   font-size: 28px;
   line-height: 40px;
   padding: 24px 16px;
@@ -521,7 +517,7 @@ footer p:nth-child(1) {
 
 .main__description_text {
   max-width: 312px;
-  font-family: "TT Lakes Light";
+  font-family: "TT Lakes Regular";
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 0.2px;
@@ -532,7 +528,7 @@ footer p:nth-child(1) {
 }
 
 .main__item {
-  font-family: "TT Lakes Light";
+  font-family: "TT Lakes Regular";
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
@@ -653,7 +649,7 @@ footer p:nth-child(1) {
     display: none;
   }
 }
-@media (min-width: 1120px) {
+@media (min-width: 1440px) {
   .main__content {
     display: flex;
     flex-direction: row;
@@ -727,7 +723,7 @@ footer p:nth-child(1) {
     white-space: nowrap;
   }
   .caption__title::before {
-    left: 325px;
+    left: 305px;
   }
   .content-wrapper {
     max-width: 1056px;
@@ -758,7 +754,7 @@ footer p:nth-child(1) {
 }
 
 .price-text {
-  font-family: "TT Lakes Light";
+  font-family: "TT Lakes Regular";
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
@@ -930,12 +926,12 @@ footer p:nth-child(1) {
     display: none !important;
   }
 }
-@media (min-width: 1120px) {
+@media (min-width: 1440px) {
   .price-wrapper {
     max-width: 1056px;
   }
   .price-item {
-    max-width: 718px;
+    max-width: 1056px;
   }
   .price-item p:nth-child(1) {
     min-width: 470px;
@@ -1022,7 +1018,7 @@ footer p:nth-child(1) {
   color: #1b1c21;
 }
 .main-contact a:nth-child(2) {
-  font-family: "TT Lakes";
+  font-family: "TT Lakes Bold";
   font-size: 24px;
   line-height: 32px;
   letter-spacing: -0.6px;
@@ -1051,7 +1047,7 @@ footer p:nth-child(1) {
     max-width: 320px;
   }
 }
-@media (min-width: 1120px) {
+@media (min-width: 1440px) {
   .side-menu.hidden {
     display: block;
     z-index: 0;
@@ -1080,7 +1076,7 @@ footer p:nth-child(1) {
 }
 
 .brend-text {
-  font-family: "TT Lakes Light";
+  font-family: "TT Lakes Regular";
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
@@ -1252,7 +1248,7 @@ footer p:nth-child(1) {
     display: none !important;
   }
 }
-@media (min-width: 1120px) {
+@media (min-width: 1440px) {
   .brend-wrapper {
     max-width: 1056px;
   }
@@ -1284,22 +1280,22 @@ footer p:nth-child(1) {
   }
 }
 @font-face {
-  font-family: "TT Lakes";
-  src: url(8362e886a07494fca1b0.ttf) format("trutype");
+  font-family: "TT Lakes Regular";
+  src: url(a0bf8bd54132d614be5d.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "TT Lakes";
-  src: url(ac727b602c646504db23.ttf) format("trutype");
+  font-family: "TT Lakes Bold";
+  src: url(8747246cd48097156cbb.ttf) format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "TT Lakes";
-  src: url(8afcf5ca127d25c5bb56.ttf) format("trutype");
+  font-family: "TT Lakes Medium";
+  src: url(1db5f8df31efefe6bea1.ttf) format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;

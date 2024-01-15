@@ -96,7 +96,7 @@
 }
 
 .caption__title {
-    font-family: 'TT Lakes';
+    font-family: 'TT Lakes Bold';
     font-size: 28px;
     line-height: 40px;
     padding: 24px 16px;
@@ -146,7 +146,7 @@
 
 .main__description_text {
     max-width: 312px;
-    font-family: 'TT Lakes Light';
+    font-family: 'TT Lakes Regular';
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.2px;
@@ -157,7 +157,7 @@
 }
 
 .main__item {
-    font-family: 'TT Lakes Light';
+    font-family: 'TT Lakes Regular';
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
@@ -280,7 +280,7 @@
     }
 }
 
-@media (min-width: 1120px) {
+@media (min-width: 1440px) {
     .main__content {
         display: flex;
         flex-direction: row;
@@ -354,7 +354,7 @@
         white-space: nowrap;
     }
     .caption__title::before {
-        left: 325px;
+        left: 305px;
     }
     .content-wrapper {
         max-width: 1056px;
@@ -366,6 +366,7 @@
         max-width: unset;
         margin: 0;
     }
+    
     .caption,
     .main__content,
     .brend,

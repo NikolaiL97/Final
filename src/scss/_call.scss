@@ -23,7 +23,7 @@
         flex-direction: column;
     }
     h1 {
-        font-family: 'TT Lakes';
+        font-family: 'TT Lakes Bold';
         font-size: 28px;
         line-height: 40px;
         padding: 24px 16px;
@@ -141,7 +141,7 @@
     }
 }
 
-@media (min-width: 1120px) {
+@media (min-width: 1440px) {
     .feedback,
     .responsiveness {
         width: 440px;

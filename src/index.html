@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>CPS</title>
     <body>
         <header class="header hidden">
@@ -443,7 +443,7 @@
             <div class="feedback-wrapper">
                 <img src="./Images/close.svg" alt="close" class="feedback-img">
                 <h1 class="caption__title caption__title_blue">Заказать звонок</h1>
-                <input type="tel" required placeholder="Телефон">
+                <input type="tel" name="tell" required placeholder="Телефон">
                 <div class="feedback-description">
                     <p class="feedback-text">Нажимая “отправить”, вы даете согласие на <span class="colortext">обработку персональных данных</span> и соглашаетесь с нашей <span class="colortext">политикой конфиденциальности</span></p>
                     <button class="price-btn feedback-btn">Отправить</button>
@@ -456,16 +456,16 @@
                 <h1 class="caption__title caption__title_blue">Обратная связь</h1>
                 <ul class="feedback-list">
                     <li class="feedback-item">
-                        <input type="text" required placeholder="Имя">
+                        <input type="text" name="names" required placeholder="Имя">
                     </li>
                     <li class="feedback-item">
-                        <input type="tel" required placeholder="Телефон">
+                        <input type="tel" name="tell" required placeholder="Телефон">
                     </li>
                     <li class="feedback-item">
-                        <input type="email" name="email" required placeholder="Электронная почта">
+                        <input type="email" name="emails" required placeholder="Электронная почта">
                     </li>
                     <li class="feedback-item">
-                        <input type="text" required placeholder="Сообщение">
+                        <input type="text" name="message" required placeholder="Сообщение">
                     </li>
                 </ul>
                 <div class="feedback-description">

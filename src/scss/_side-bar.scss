@@ -67,7 +67,7 @@
         color: $price-text;
     }
     a:nth-child(2) {
-        font-family: 'TT Lakes';
+        font-family: 'TT Lakes Bold';
         font-size: 24px;
         line-height: 32px;
         letter-spacing: -0.6px;
@@ -98,7 +98,7 @@
     }
 }
 
-@media (min-width: 1120px) {
+@media (min-width: 1440px) {
     .side-menu.hidden {
         display: block;
         z-index: 0;
