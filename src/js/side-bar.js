@@ -28,8 +28,8 @@ let menuIsHidden = true
 let showMenu = () => {
     sideMenu.classList.remove('hidden')
     menuIsHidden = false
-    burger.src = './img/icon.x.svg'
-    searchIcon.src = './img/icon.search.svg'
+    burger.src = './Images/close.svg'
+    searchIcon.src = './Images/header-search.svg'
     headerBackground.style = 'background: white; z-index: 2;'
     headerMargin.style =
         'max-width: fit-content; margin: 0; position: fixed; z-index: 2;'
@@ -41,8 +41,8 @@ let showMenu = () => {
 let hideMenu = () => {
     sideMenu.classList.add('hidden')
     menuIsHidden = true
-    burger.src = './img/icon1.svg'
-    searchIcon.src = './img/icon2.svg'
+    burger.src = './Images/header-menu.svg'
+    searchIcon.src = './Images/header-search.svg'
     navHeader.src = 'gap: 16px'
     headerBackground.style = 'background: #f8f8f8; z-index: 1;'
     headerMargin.style = 'max-width: 720px; margin: 0 auto; z-index: 1;'
